@@ -1,0 +1,16 @@
+{
+  "name": "learn-thrift-node-go",
+  "version": "1.0.0",
+  "description": "Example of ExpressJS app with Thrift to simulate RPC within microservices.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sigit Prayoga <prayoga.sigit@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "thrift": "^0.9.3"
+  }
+}
