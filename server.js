@@ -13,7 +13,7 @@ var server = thrift.createServer(Helloer, {
     sayHelloTo: function (name, result) {
         console.log("sayHelloTo()", name);
         //return without error, and send back the concated string.
-        result(null, "Hello " + name);
+        result(null, "Hello " + name + "\n");
     }
 });
 
